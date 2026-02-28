@@ -1,0 +1,128 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	color: #333;
+	padding: 20px;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+/* Header & Apple Logo */
+.header-top {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	margin-bottom: 20px;
+}
+
+.site-logo {
+	width: 80px;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 12px;
+	color: #666;
+	text-align: center;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: normal;
+}
+
+/* Navigation */
+nav ul {
+	list-style-type: none;
+	width: 150px;
+	border: 1px solid #333;
+	margin-bottom: 30px;
+}
+
+nav li a {
+	display: block;
+	padding: 8px 12px;
+	text-decoration: none;
+	color: #333;
+	text-align: center;
+	border-bottom: 1px solid #333;
+}
+
+nav li:last-child a {
+	border-bottom: none;
+}
+
+nav li a.active {
+	background-color: #0088cc; /* Blue background for active tab */
+	color: white;
+}
+
+/* Home Page */
+main section {
+	margin-bottom: 20px;
+}
+
+main h2 {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+main p {
+	font-size: 14px;
+	line-height: 1.4;
+	color: #555;
+}
+
+/* Contact Page */
+.contact-form {
+	margin-left: 100px; /* Indents form to match mockup layout */
+	max-width: 350px;
+}
+
+.form-group {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 10px;
+}
+
+.form-group label {
+	font-size: 14px;
+	color: #888;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+	width: 200px;
+	border: 1px solid #333;
+	padding: 4px;
+}
+
+.submit-btn {
+	display: block;
+	margin-left: auto; /* Aligns button to the right under the inputs */
+	margin-top: 10px;
+	padding: 4px 20px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+/* Footer */
+footer {
+	margin-top: 40px;
+	text-align: center;
+	font-size: 12px;
+	color: #888;
+}
+
+footer a {
+	color: #888;
+	text-decoration: none;
+}
